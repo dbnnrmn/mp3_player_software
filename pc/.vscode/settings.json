@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "avutil.h": "c",
+        "iconv.h": "c",
+        "audio.h": "c",
+        "decoder.h": "c",
+        "lt_dlloader.h": "c",
+        "avformat.h": "c",
+        "mathematics.h": "c"
+    }
+}

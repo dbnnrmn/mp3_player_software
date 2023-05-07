@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -Wall -Wpedantic -shared -Wl,-soname,libffmpeg.so -o ../../plugins/libffmpeg.so CMakeFiles/ffmpeg.dir/mocp/decoder_plugins/ffmpeg/ffmpeg.c.o  -lasound -lavformat -lm -lltdl -lavcodec -lavutil 

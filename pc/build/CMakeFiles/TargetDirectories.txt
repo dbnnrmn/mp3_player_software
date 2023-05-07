@@ -1,0 +1,14 @@
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles/edit_cache.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles/rebuild_cache.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles/list_install_components.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles/install.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles/install/local.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles/install/strip.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/CMakeFiles/ffmpeg.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/CMakeFiles/mp3player.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/CMakeFiles/edit_cache.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/CMakeFiles/rebuild_cache.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/CMakeFiles/list_install_components.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/CMakeFiles/install.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/CMakeFiles/install/local.dir
+/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/CMakeFiles/install/strip.dir

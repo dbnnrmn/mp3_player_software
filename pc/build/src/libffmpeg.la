@@ -1,0 +1,36 @@
+
+# Please DO NOT delete this file!
+# It is necessary for linking the library with libtool.
+
+# The name that we can dlopen(3).
+dlname='libffmpeg.so'
+
+# Names of this library.
+library_names='libffmpeg.so.0.0.0 libffmpeg.so.0 libffmpeg.so'
+
+# The name of the static archive.
+old_library=''
+
+# Libraries that this one depends upon.
+dependency_libs=''
+
+# Names of additional weak libraries provided by this library
+weak_library_names=''
+
+# Version information for /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/libffmpeg.la.
+current=0
+age=0
+revision=0
+
+# Is this an already installed library?
+installed=yes
+
+# Should we warn about portability when linking against -modules?
+shouldnotlink=yes
+
+# Files to dlopen/dlpreopen
+dlopen=''
+dlpreopen=''
+
+# Directory that this library needs to be installed in:
+libdir='/usr/local/media/roman/SharedDisk/my/projects/mp3_player/software/pc/src/../plugins'
