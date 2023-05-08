@@ -51,7 +51,6 @@ mocp/tags_cache.h
 mocp/tags_cache.c
 mocp/utf8.h
 mocp/utf8.c
-
 main.c)
 
 #creating shares lib
@@ -66,10 +65,20 @@ file(COPY ${PROJECT_SOURCE_DIR}/../build/src/libffmpeg.la DESTINATION ${PROJECT_
 add_executable(mp3player ${SOURCE_FILES})
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/../out)
 
+
+#find_package(SDL2 REQUIRED CONFIG REQUIRED COMPONENTS SDL2)
+#find_package(SDL2 REQUIRED CONFIG COMPONENTS SDL2main)
+#include_directories(mp3player ${SDL2_INCLUDE_DIRS})
+#target_link_libraries(mp3player ${SDL2_LIBRARIES})
+
+
+
 SET (CMAKE_C_FLAGS "-g -Wall -Wpedantic")
 target_include_directories(mp3player PRIVATE player mocp )
-target_link_libraries(mp3player PRIVATE asound avformat m ltdl avcodec avutil)
-target_compile_definitions(mp3player PUBLIC -DPLUGIN_DIR="${PROJECT_SOURCE_DIR}/../plugins" -DHAVE_ALSA)
+add_subdirectory(lvgl)
+add_subdirectory(lv_drivers)
+target_link_libraries(mp3player PRIVATE asound avformat m ltdl avcodec avutil lvgl lvgl::drivers SDL2 SDL2main)
+target_compile_definitions(mp3player PUBLIC -DPLUGIN_DIR="${PROJECT_SOURCE_DIR}/../plugins" -DHAVE_ALSA -DLV_CONF_INCLUDE_SIMPLE="${PROJECT_SOURCE_DIR}")
 
 
 message("${EXECUTABLE_OUTPUT_PATH}")

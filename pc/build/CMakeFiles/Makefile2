@@ -80,16 +80,55 @@ clean: src/clean
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/ffmpeg.dir/all
 src/all: src/CMakeFiles/mp3player.dir/all
+src/all: src/lvgl/all
+src/all: src/lv_drivers/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
-src/preinstall:
+src/preinstall: src/lvgl/preinstall
+src/preinstall: src/lv_drivers/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/ffmpeg.dir/clean
 src/clean: src/CMakeFiles/mp3player.dir/clean
+src/clean: src/lvgl/clean
+src/clean: src/lv_drivers/clean
 .PHONY : src/clean
+
+#=============================================================================
+# Directory level rules for directory src/lv_drivers
+
+# Recursive "all" directory target.
+src/lv_drivers/all: src/lv_drivers/CMakeFiles/lv_drivers.dir/all
+.PHONY : src/lv_drivers/all
+
+# Recursive "preinstall" directory target.
+src/lv_drivers/preinstall:
+.PHONY : src/lv_drivers/preinstall
+
+# Recursive "clean" directory target.
+src/lv_drivers/clean: src/lv_drivers/CMakeFiles/lv_drivers.dir/clean
+.PHONY : src/lv_drivers/clean
+
+#=============================================================================
+# Directory level rules for directory src/lvgl
+
+# Recursive "all" directory target.
+src/lvgl/all: src/lvgl/CMakeFiles/lvgl.dir/all
+src/lvgl/all: src/lvgl/CMakeFiles/lvgl_examples.dir/all
+src/lvgl/all: src/lvgl/CMakeFiles/lvgl_demos.dir/all
+.PHONY : src/lvgl/all
+
+# Recursive "preinstall" directory target.
+src/lvgl/preinstall:
+.PHONY : src/lvgl/preinstall
+
+# Recursive "clean" directory target.
+src/lvgl/clean: src/lvgl/CMakeFiles/lvgl.dir/clean
+src/lvgl/clean: src/lvgl/CMakeFiles/lvgl_examples.dir/clean
+src/lvgl/clean: src/lvgl/CMakeFiles/lvgl_demos.dir/clean
+.PHONY : src/lvgl/clean
 
 #=============================================================================
 # Target rules for target src/CMakeFiles/ffmpeg.dir
@@ -98,12 +137,12 @@ src/clean: src/CMakeFiles/mp3player.dir/clean
 src/CMakeFiles/ffmpeg.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ffmpeg.dir/build.make src/CMakeFiles/ffmpeg.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ffmpeg.dir/build.make src/CMakeFiles/ffmpeg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles --progress-num=1,2 "Built target ffmpeg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles --progress-num= "Built target ffmpeg"
 .PHONY : src/CMakeFiles/ffmpeg.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/ffmpeg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ffmpeg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/ffmpeg.dir/rule
@@ -121,15 +160,16 @@ src/CMakeFiles/ffmpeg.dir/clean:
 # Target rules for target src/CMakeFiles/mp3player.dir
 
 # All Build rule for target.
-src/CMakeFiles/mp3player.dir/all:
+src/CMakeFiles/mp3player.dir/all: src/lvgl/CMakeFiles/lvgl.dir/all
+src/CMakeFiles/mp3player.dir/all: src/lv_drivers/CMakeFiles/lv_drivers.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mp3player.dir/build.make src/CMakeFiles/mp3player.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mp3player.dir/build.make src/CMakeFiles/mp3player.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target mp3player"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles --progress-num=95,96,97,98,99,100 "Built target mp3player"
 .PHONY : src/CMakeFiles/mp3player.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/mp3player.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 51
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/mp3player.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/mp3player.dir/rule
@@ -142,6 +182,110 @@ mp3player: src/CMakeFiles/mp3player.dir/rule
 src/CMakeFiles/mp3player.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mp3player.dir/build.make src/CMakeFiles/mp3player.dir/clean
 .PHONY : src/CMakeFiles/mp3player.dir/clean
+
+#=============================================================================
+# Target rules for target src/lvgl/CMakeFiles/lvgl.dir
+
+# All Build rule for target.
+src/lvgl/CMakeFiles/lvgl.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl.dir/build.make src/lvgl/CMakeFiles/lvgl.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl.dir/build.make src/lvgl/CMakeFiles/lvgl.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45 "Built target lvgl"
+.PHONY : src/lvgl/CMakeFiles/lvgl.dir/all
+
+# Build rule for subdir invocation for target.
+src/lvgl/CMakeFiles/lvgl.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 40
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lvgl/CMakeFiles/lvgl.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 0
+.PHONY : src/lvgl/CMakeFiles/lvgl.dir/rule
+
+# Convenience name for target.
+lvgl: src/lvgl/CMakeFiles/lvgl.dir/rule
+.PHONY : lvgl
+
+# clean rule for target.
+src/lvgl/CMakeFiles/lvgl.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl.dir/build.make src/lvgl/CMakeFiles/lvgl.dir/clean
+.PHONY : src/lvgl/CMakeFiles/lvgl.dir/clean
+
+#=============================================================================
+# Target rules for target src/lvgl/CMakeFiles/lvgl_examples.dir
+
+# All Build rule for target.
+src/lvgl/CMakeFiles/lvgl_examples.dir/all: src/lvgl/CMakeFiles/lvgl.dir/all
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl_examples.dir/build.make src/lvgl/CMakeFiles/lvgl_examples.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl_examples.dir/build.make src/lvgl/CMakeFiles/lvgl_examples.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles --progress-num=59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94 "Built target lvgl_examples"
+.PHONY : src/lvgl/CMakeFiles/lvgl_examples.dir/all
+
+# Build rule for subdir invocation for target.
+src/lvgl/CMakeFiles/lvgl_examples.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 76
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lvgl/CMakeFiles/lvgl_examples.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 0
+.PHONY : src/lvgl/CMakeFiles/lvgl_examples.dir/rule
+
+# Convenience name for target.
+lvgl_examples: src/lvgl/CMakeFiles/lvgl_examples.dir/rule
+.PHONY : lvgl_examples
+
+# clean rule for target.
+src/lvgl/CMakeFiles/lvgl_examples.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl_examples.dir/build.make src/lvgl/CMakeFiles/lvgl_examples.dir/clean
+.PHONY : src/lvgl/CMakeFiles/lvgl_examples.dir/clean
+
+#=============================================================================
+# Target rules for target src/lvgl/CMakeFiles/lvgl_demos.dir
+
+# All Build rule for target.
+src/lvgl/CMakeFiles/lvgl_demos.dir/all: src/lvgl/CMakeFiles/lvgl.dir/all
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl_demos.dir/build.make src/lvgl/CMakeFiles/lvgl_demos.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl_demos.dir/build.make src/lvgl/CMakeFiles/lvgl_demos.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles --progress-num=46,47,48,49,50,51,52,53,54,55,56,57,58 "Built target lvgl_demos"
+.PHONY : src/lvgl/CMakeFiles/lvgl_demos.dir/all
+
+# Build rule for subdir invocation for target.
+src/lvgl/CMakeFiles/lvgl_demos.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 53
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lvgl/CMakeFiles/lvgl_demos.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 0
+.PHONY : src/lvgl/CMakeFiles/lvgl_demos.dir/rule
+
+# Convenience name for target.
+lvgl_demos: src/lvgl/CMakeFiles/lvgl_demos.dir/rule
+.PHONY : lvgl_demos
+
+# clean rule for target.
+src/lvgl/CMakeFiles/lvgl_demos.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl_demos.dir/build.make src/lvgl/CMakeFiles/lvgl_demos.dir/clean
+.PHONY : src/lvgl/CMakeFiles/lvgl_demos.dir/clean
+
+#=============================================================================
+# Target rules for target src/lv_drivers/CMakeFiles/lv_drivers.dir
+
+# All Build rule for target.
+src/lv_drivers/CMakeFiles/lv_drivers.dir/all: src/lvgl/CMakeFiles/lvgl.dir/all
+	$(MAKE) $(MAKESILENT) -f src/lv_drivers/CMakeFiles/lv_drivers.dir/build.make src/lv_drivers/CMakeFiles/lv_drivers.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/lv_drivers/CMakeFiles/lv_drivers.dir/build.make src/lv_drivers/CMakeFiles/lv_drivers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target lv_drivers"
+.PHONY : src/lv_drivers/CMakeFiles/lv_drivers.dir/all
+
+# Build rule for subdir invocation for target.
+src/lv_drivers/CMakeFiles/lv_drivers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 45
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/lv_drivers/CMakeFiles/lv_drivers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles 0
+.PHONY : src/lv_drivers/CMakeFiles/lv_drivers.dir/rule
+
+# Convenience name for target.
+lv_drivers: src/lv_drivers/CMakeFiles/lv_drivers.dir/rule
+.PHONY : lv_drivers
+
+# clean rule for target.
+src/lv_drivers/CMakeFiles/lv_drivers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/lv_drivers/CMakeFiles/lv_drivers.dir/build.make src/lv_drivers/CMakeFiles/lv_drivers.dir/clean
+.PHONY : src/lv_drivers/CMakeFiles/lv_drivers.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

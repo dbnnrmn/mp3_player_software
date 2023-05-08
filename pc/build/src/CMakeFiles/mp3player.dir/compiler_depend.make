@@ -88,7 +88,391 @@ src/CMakeFiles/mp3player.dir/main.c.o: ../src/main.c \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/linux/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  ../src/mocp/compat.h
+  ../src/mocp/compat.h \
+  ../src/lvgl/lvgl.h \
+  ../src/lvgl/src/misc/lv_log.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  ../src/lvgl/src/lv_conf_kconfig.h \
+  ../src/lvgl/lv_conf.h \
+  ../src/lvgl/src/misc/lv_types.h \
+  ../src/lvgl/src/misc/lv_timer.h \
+  ../src/lvgl/src/hal/lv_hal_tick.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/misc/lv_math.h \
+  ../src/lvgl/src/misc/lv_mem.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  ../src/lvgl/src/misc/lv_async.h \
+  ../src/lvgl/src/misc/lv_anim_timeline.h \
+  ../src/lvgl/src/misc/lv_anim.h \
+  ../src/lvgl/src/misc/lv_printf.h \
+  /usr/include/inttypes.h \
+  ../src/lvgl/src/hal/lv_hal.h \
+  ../src/lvgl/src/hal/lv_hal_disp.h \
+  ../src/lvgl/src/hal/lv_hal.h \
+  ../src/lvgl/src/draw/lv_draw.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/misc/lv_style.h \
+  ../src/lvgl/src/font/lv_font.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/font/lv_symbol_def.h \
+  ../src/lvgl/src/misc/lv_area.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/misc/lv_color.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/misc/lv_assert.h \
+  ../src/lvgl/src/misc/lv_log.h \
+  ../src/lvgl/src/misc/lv_mem.h \
+  ../src/lvgl/src/misc/lv_math.h \
+  ../src/lvgl/src/misc/lv_types.h \
+  ../src/lvgl/src/misc/lv_area.h \
+  ../src/lvgl/src/misc/lv_anim.h \
+  ../src/lvgl/src/misc/lv_txt.h \
+  ../src/lvgl/src/misc/lv_printf.h \
+  ../src/lvgl/src/misc/lv_bidi.h \
+  ../src/lvgl/src/misc/lv_style_gen.h \
+  ../src/lvgl/src/misc/lv_txt.h \
+  ../src/lvgl/src/draw/lv_img_decoder.h \
+  ../src/lvgl/src/draw/lv_img_buf.h \
+  ../src/lvgl/src/misc/lv_color.h \
+  ../src/lvgl/src/misc/lv_area.h \
+  ../src/lvgl/src/misc/lv_fs.h \
+  ../src/lvgl/src/misc/lv_types.h \
+  ../src/lvgl/src/draw/lv_img_cache.h \
+  ../src/lvgl/src/draw/lv_draw_rect.h \
+  ../src/lvgl/src/draw/sw/lv_draw_sw_gradient.h \
+  ../src/lvgl/src/misc/lv_color.h \
+  ../src/lvgl/src/misc/lv_style.h \
+  ../src/lvgl/src/draw/sw/lv_draw_sw_dither.h \
+  ../src/lvgl/src/core/lv_obj_pos.h \
+  ../src/lvgl/src/misc/lv_area.h \
+  ../src/lvgl/src/draw/lv_draw_label.h \
+  ../src/lvgl/src/misc/lv_bidi.h \
+  ../src/lvgl/src/draw/lv_draw_img.h \
+  ../src/lvgl/src/draw/lv_draw_line.h \
+  ../src/lvgl/src/draw/lv_draw_triangle.h \
+  ../src/lvgl/src/draw/lv_draw_arc.h \
+  ../src/lvgl/src/draw/lv_draw_mask.h \
+  ../src/lvgl/src/misc/lv_math.h \
+  ../src/lvgl/src/draw/lv_draw_transform.h \
+  ../src/lvgl/src/draw/lv_draw_layer.h \
+  ../src/lvgl/src/misc/lv_color.h \
+  ../src/lvgl/src/misc/lv_area.h \
+  ../src/lvgl/src/misc/lv_ll.h \
+  ../src/lvgl/src/misc/lv_timer.h \
+  ../src/lvgl/src/hal/lv_hal_indev.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/hal/lv_hal_tick.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/misc/lv_style.h \
+  ../src/lvgl/src/misc/lv_types.h \
+  ../src/lvgl/src/misc/lv_area.h \
+  ../src/lvgl/src/misc/lv_color.h \
+  ../src/lvgl/src/misc/lv_assert.h \
+  ../src/lvgl/src/hal/lv_hal.h \
+  ../src/lvgl/src/core/lv_obj_tree.h \
+  ../src/lvgl/src/core/lv_obj_pos.h \
+  ../src/lvgl/src/core/lv_obj_scroll.h \
+  ../src/lvgl/src/misc/lv_anim.h \
+  ../src/lvgl/src/core/lv_obj_style.h \
+  ../src/lvgl/src/misc/lv_bidi.h \
+  ../src/lvgl/src/core/lv_obj_style_gen.h \
+  ../src/lvgl/src/core/lv_obj_draw.h \
+  ../src/lvgl/src/draw/lv_draw.h \
+  ../src/lvgl/src/core/lv_obj_class.h \
+  ../src/lvgl/src/core/lv_event.h \
+  ../src/lvgl/src/core/lv_group.h \
+  ../src/lvgl/src/misc/lv_ll.h \
+  ../src/lvgl/src/core/lv_group.h \
+  ../src/lvgl/src/core/lv_indev.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/hal/lv_hal_indev.h \
+  ../src/lvgl/src/core/lv_refr.h \
+  ../src/lvgl/src/core/lv_disp.h \
+  ../src/lvgl/src/core/lv_theme.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/core/lv_theme.h \
+  ../src/lvgl/src/font/lv_font.h \
+  ../src/lvgl/src/font/lv_font_loader.h \
+  ../src/lvgl/src/font/lv_font_fmt_txt.h \
+  ../src/lvgl/src/font/lv_font.h \
+  ../src/lvgl/src/widgets/lv_arc.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/widgets/lv_btn.h \
+  ../src/lvgl/src/widgets/lv_img.h \
+  ../src/lvgl/src/misc/lv_fs.h \
+  ../src/lvgl/src/draw/lv_draw.h \
+  ../src/lvgl/src/widgets/lv_label.h \
+  ../src/lvgl/src/font/lv_font.h \
+  ../src/lvgl/src/font/lv_symbol_def.h \
+  ../src/lvgl/src/misc/lv_txt.h \
+  ../src/lvgl/src/widgets/lv_line.h \
+  ../src/lvgl/src/widgets/lv_table.h \
+  ../src/lvgl/src/widgets/lv_label.h \
+  ../src/lvgl/src/widgets/lv_checkbox.h \
+  ../src/lvgl/src/widgets/lv_bar.h \
+  ../src/lvgl/src/misc/lv_anim.h \
+  ../src/lvgl/src/widgets/lv_btn.h \
+  ../src/lvgl/src/widgets/lv_slider.h \
+  ../src/lvgl/src/widgets/lv_bar.h \
+  ../src/lvgl/src/widgets/lv_btnmatrix.h \
+  ../src/lvgl/src/widgets/lv_dropdown.h \
+  ../src/lvgl/src/widgets/lv_label.h \
+  ../src/lvgl/src/widgets/lv_roller.h \
+  ../src/lvgl/src/widgets/lv_textarea.h \
+  ../src/lvgl/src/widgets/lv_canvas.h \
+  ../src/lvgl/src/widgets/lv_img.h \
+  ../src/lvgl/src/draw/lv_draw_img.h \
+  ../src/lvgl/src/widgets/lv_switch.h \
+  ../src/lvgl/src/draw/lv_draw.h \
+  ../src/lvgl/src/lv_api_map.h \
+  ../src/lvgl/lvgl.h \
+  ../src/lvgl/src/extra/lv_extra.h \
+  ../src/lvgl/src/extra/layouts/lv_layouts.h \
+  ../src/lvgl/src/extra/layouts/flex/lv_flex.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/layouts/grid/lv_grid.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/libs/lv_libs.h \
+  ../src/lvgl/src/extra/libs/bmp/lv_bmp.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/extra/libs/fsdrv/lv_fsdrv.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/extra/libs/png/lv_png.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/extra/libs/gif/lv_gif.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/lvgl.h \
+  ../src/lvgl/src/extra/libs/qrcode/lv_qrcode.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/libs/sjpg/lv_sjpg.h \
+  ../src/lvgl/src/extra/libs/freetype/lv_freetype.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/libs/rlottie/lv_rlottie.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/others/lv_others.h \
+  ../src/lvgl/src/extra/others/snapshot/lv_snapshot.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/others/monkey/lv_monkey.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/others/gridnav/lv_gridnav.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/others/fragment/lv_fragment.h \
+  ../src/lvgl/src/lv_conf_internal.h \
+  ../src/lvgl/src/extra/others/imgfont/lv_imgfont.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/others/msg/lv_msg.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/others/ime/lv_ime_pinyin.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/themes/lv_themes.h \
+  ../src/lvgl/src/extra/themes/default/lv_theme_default.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/themes/mono/lv_theme_mono.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/themes/basic/lv_theme_basic.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/widgets/lv_widgets.h \
+  ../src/lvgl/src/extra/widgets/animimg/lv_animimg.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/widgets/calendar/lv_calendar.h \
+  ../src/lvgl/src/widgets/lv_btnmatrix.h \
+  ../src/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h \
+  ../src/lvgl/src/extra/widgets/chart/lv_chart.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/widgets/keyboard/lv_keyboard.h \
+  ../src/lvgl/src/widgets/lv_btnmatrix.h \
+  ../src/lvgl/src/extra/widgets/list/lv_list.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/layouts/flex/lv_flex.h \
+  ../src/lvgl/src/extra/widgets/menu/lv_menu.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/widgets/msgbox/lv_msgbox.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/widgets/meter/lv_meter.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/widgets/spinbox/lv_spinbox.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/widgets/spinner/lv_spinner.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/widgets/tabview/lv_tabview.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/widgets/tileview/lv_tileview.h \
+  ../src/lvgl/src/core/lv_obj.h \
+  ../src/lvgl/src/extra/widgets/win/lv_win.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/widgets/led/lv_led.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lvgl/src/extra/widgets/span/lv_span.h \
+  ../src/lvgl/src/lvgl.h \
+  ../src/lv_conf.h \
+  /usr/include/SDL2/SDL.h \
+  /usr/include/SDL2/SDL_main.h \
+  /usr/include/SDL2/SDL_stdinc.h \
+  /usr/include/SDL2/SDL_config.h \
+  /usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h \
+  /usr/include/SDL2/SDL_platform.h \
+  /usr/include/SDL2/begin_code.h \
+  /usr/include/SDL2/close_code.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/ctype.h \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+  /usr/include/SDL2/SDL_assert.h \
+  /usr/include/SDL2/SDL_atomic.h \
+  /usr/include/SDL2/SDL_platform.h \
+  /usr/include/SDL2/SDL_audio.h \
+  /usr/include/SDL2/SDL_error.h \
+  /usr/include/SDL2/SDL_endian.h \
+  /usr/include/SDL2/SDL_mutex.h \
+  /usr/include/SDL2/SDL_thread.h \
+  /usr/include/SDL2/SDL_rwops.h \
+  /usr/include/SDL2/SDL_clipboard.h \
+  /usr/include/SDL2/SDL_cpuinfo.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xtestintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/smmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
+  /usr/include/SDL2/SDL_events.h \
+  /usr/include/SDL2/SDL_video.h \
+  /usr/include/SDL2/SDL_pixels.h \
+  /usr/include/SDL2/SDL_rect.h \
+  /usr/include/SDL2/SDL_surface.h \
+  /usr/include/SDL2/SDL_blendmode.h \
+  /usr/include/SDL2/SDL_keyboard.h \
+  /usr/include/SDL2/SDL_keycode.h \
+  /usr/include/SDL2/SDL_scancode.h \
+  /usr/include/SDL2/SDL_mouse.h \
+  /usr/include/SDL2/SDL_joystick.h \
+  /usr/include/SDL2/SDL_gamecontroller.h \
+  /usr/include/SDL2/SDL_sensor.h \
+  /usr/include/SDL2/SDL_quit.h \
+  /usr/include/SDL2/SDL_gesture.h \
+  /usr/include/SDL2/SDL_touch.h \
+  /usr/include/SDL2/SDL_filesystem.h \
+  /usr/include/SDL2/SDL_haptic.h \
+  /usr/include/SDL2/SDL_hidapi.h \
+  /usr/include/SDL2/SDL_hints.h \
+  /usr/include/SDL2/SDL_loadso.h \
+  /usr/include/SDL2/SDL_log.h \
+  /usr/include/SDL2/SDL_messagebox.h \
+  /usr/include/SDL2/SDL_metal.h \
+  /usr/include/SDL2/SDL_power.h \
+  /usr/include/SDL2/SDL_render.h \
+  /usr/include/SDL2/SDL_shape.h \
+  /usr/include/SDL2/SDL_system.h \
+  /usr/include/SDL2/SDL_timer.h \
+  /usr/include/SDL2/SDL_version.h \
+  /usr/include/SDL2/SDL_locale.h \
+  /usr/include/SDL2/SDL_misc.h \
+  ../src/lv_drivers/sdl/sdl.h \
+  ../src/lv_drivers/lv_drv_conf.h \
+  ../src/lv_drivers/sdl/sdl_common.h \
+  ../src/lvgl/lvgl.h
 
 src/CMakeFiles/mp3player.dir/mocp/alsa.c.o: ../src/mocp/alsa.c \
   /usr/include/stdc-predef.h \
@@ -2501,494 +2885,1016 @@ src/CMakeFiles/mp3player.dir/mocp/utf8.c.o: ../src/mocp/utf8.c \
   ../src/mocp/rcc.h
 
 
-../src/mocp/utf8.c:
+../src/mocp/softmixer.c:
 
-../src/mocp/tags_cache.c:
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
-../src/mocp/tags_cache.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
-
-/usr/include/x86_64-linux-gnu/asm/sockios.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+/usr/include/asm-generic/posix_types.h:
 
 /usr/include/linux/stddef.h:
 
+/usr/include/linux/posix_types.h:
+
 /usr/include/x86_64-linux-gnu/bits/socket_type.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
-
-../src/mocp/rbtree.c:
-
-../src/mocp/protocol.c:
-
-/usr/include/x86_64-linux-gnu/sys/file.h:
 
 ../src/mocp/rcc.h:
 
-/usr/include/regex.h:
+../src/mocp/player.c:
+
+../src/mocp/options.c:
 
 ../src/mocp/md5.h:
 
-../src/mocp/md5.c:
+../src/mocp/io.c:
 
 /usr/include/iconv.h:
 
 ../src/mocp/utf8.h:
 
-/usr/include/asm-generic/sockios.h:
-
-../src/mocp/playlist_file.h:
-
-../src/mocp/null_out.c:
+../src/mocp/files.c:
 
 ../src/mocp/fifo_buf.c:
 
-/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
+/usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/dirent.h:
 
-/usr/include/dirent.h:
-
-/usr/include/libltdl/lt_error.h:
-
-../src/mocp/keys.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
-
-../src/mocp/files.c:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-../src/mocp/out_buf.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
-
-/usr/include/x86_64-linux-gnu/sys/socket.h:
-
-/usr/include/pwd.h:
-
-/usr/include/ctype.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/math.h:
-
-../src/mocp/files.h:
-
-../src/mocp/out_buf.h:
-
-../src/mocp/null_out.h:
-
-../src/mocp/alsa.h:
-
-/usr/include/alsa/seqmid.h:
-
-/usr/include/alsa/seq_event.h:
-
-/usr/include/alsa/control.h:
-
-../src/mocp/decoder.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
-
-/usr/include/x86_64-linux-gnu/bits/stat.h:
-
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
-
-/usr/include/locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/alsa/rawmidi.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-../src/mocp/equalizer.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-../src/mocp/softmixer.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/usr/include/alsa/timer.h:
-
-/usr/include/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/endian.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-../src/mocp/log.c:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/x86_64-linux-gnu/sys/stat.h:
 
 ../src/mocp/equalizer.c:
 
 /usr/include/libltdl/lt_system.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-../src/mocp/playlist.c:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-../src/mocp/interface.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/wchar.h:
-
-/usr/include/alsa/input.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-../src/mocp/audio.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/alsa/seq.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/libltdl/lt_dlloader.h:
-
-/usr/include/alloca.h:
-
-../src/mocp/protocol.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-../src/mocp/playlist_file.c:
-
-/usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/ltdl.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-../src/mocp/softmixer.c:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-../src/mocp/player.h:
-
-../src/main.c:
-
-../src/mocp/audio.c:
-
-/usr/include/sched.h:
-
-../src/mocp/server.c:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/alsa/asoundlib.h:
-
-/usr/include/x86_64-linux-gnu/asm/socket.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-../src/mocp/audio_conversion.c:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-../src/mocp/common.c:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-../src/mocp/playlist.h:
-
-/usr/include/x86_64-linux-gnu/sys/stat.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/features.h:
-
-../src/mocp/options.h:
-
-/usr/include/signal.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/inttypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/pthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-../src/mocp/io.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-../src/mocp/audio_conversion.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
 ../src/mocp/decoder.c:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
-/usr/include/features-time64.h:
+../src/mocp/tags_cache.h:
 
-/usr/include/poll.h:
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
-../src/mocp/fifo_buf.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-../src/mocp/io.c:
-
-../src/mocp/lists.h:
-
-/usr/include/alsa/seq_midi_event.h:
-
-../src/mocp/common.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-../src/mocp/lists.c:
-
-/usr/include/fcntl.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-../src/mocp/compat.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
-
-../src/mocp/alsa.c:
-
-/usr/include/linux/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/stdint.h:
-
-../src/mocp/interface_elements.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/unistd.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-../src/mocp/player.c:
-
-../src/mocp/server.h:
-
-../src/mocp/rbtree.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/strings.h:
-
-/usr/include/alsa/mixer.h:
-
-/usr/include/x86_64-linux-gnu/bits/fcntl.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
-
-/usr/include/x86_64-linux-gnu/sys/un.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
-
-/usr/include/assert.h:
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/x86_64-linux-gnu/sys/poll.h:
-
-/usr/include/x86_64-linux-gnu/bits/poll.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
-
-/usr/include/errno.h:
-
-../src/mocp/oss.h:
-
-/usr/include/wctype.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-../src/mocp/log.h:
-
-/usr/include/alsa/hwdep.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/alsa/asoundef.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+../src/mocp/common.c:
+
+../src/mocp/audio_conversion.c:
+
+../src/mocp/audio_conversion.h:
+
+../src/mocp/player.h:
+
+../src/mocp/out_buf.h:
+
+../src/mocp/equalizer.h:
+
+../src/mocp/null_out.h:
+
+../src/mocp/interface.h:
+
+../src/mocp/audio.c:
+
+../src/mocp/server.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/usr/include/alsa/seq.h:
+
+/usr/include/alsa/control.h:
+
+/usr/include/alsa/timer.h:
+
+/usr/include/alsa/pcm.h:
+
 /usr/include/alsa/error.h:
+
+/usr/include/alsa/output.h:
 
 /usr/include/alsa/version.h:
 
 /usr/include/x86_64-linux-gnu/sys/wait.h:
 
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/sys/poll.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/alsa/asoundef.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/alsa/asoundlib.h:
+
+../src/mocp/alsa.c:
+
+../src/lv_drivers/sdl/sdl.h:
+
+/usr/include/SDL2/SDL_misc.h:
+
+/usr/include/SDL2/SDL_locale.h:
+
+/usr/include/SDL2/SDL_render.h:
+
+/usr/include/alsa/seq_event.h:
+
+/usr/include/SDL2/SDL_messagebox.h:
+
+/usr/include/SDL2/SDL_hidapi.h:
+
+/usr/include/SDL2/SDL_haptic.h:
+
+/usr/include/SDL2/SDL_filesystem.h:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/pwd.h:
+
+/usr/include/SDL2/SDL_touch.h:
+
+../src/mocp/playlist_file.h:
+
+/usr/include/SDL2/SDL_shape.h:
+
+/usr/include/SDL2/SDL_quit.h:
+
+/usr/include/assert.h:
+
+/usr/include/SDL2/SDL_joystick.h:
+
+/usr/include/libltdl/lt_error.h:
+
+/usr/include/SDL2/SDL_scancode.h:
+
 /usr/include/asm-generic/socket.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+/usr/include/SDL2/SDL_keycode.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/x86_64-linux-gnu/sys/un.h:
 
-/usr/include/alsa/global.h:
+/usr/include/SDL2/SDL_blendmode.h:
+
+/usr/include/SDL2/SDL_surface.h:
+
+/usr/include/SDL2/SDL_rect.h:
+
+/usr/include/SDL2/SDL_events.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/amxtileintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bf16intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bf16vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/gfniintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/f16cintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/fmaintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vp2intersectintrin.h:
+
+/usr/include/SDL2/SDL_power.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bitalgintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqvlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vnnivlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vnniintrin.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124vnniwintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124fmapsintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmivlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmiintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmaintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vldqintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vlbwintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512dqintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512erintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512fintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avxvnniintrin.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/wmmintrin.h:
+
+../src/lv_drivers/lv_drv_conf.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/smmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/tmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/hresetintrin.h:
+
+/usr/include/alsa/seqmid.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xsavesintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveoptintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xsavecintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/waitpkgintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/tbmintrin.h:
+
+../src/mocp/protocol.c:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/sgxintrin.h:
+
+/usr/include/alsa/rawmidi.h:
+
+/usr/include/alsa/conf.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/serializeintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/rtmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/rdseedintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/pkuintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/popcntintrin.h:
+
+/usr/include/alsa/mixer.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/lzcntintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/fxsrintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/enqcmdintrin.h:
+
+../src/lvgl/src/core/lv_event.h:
+
+../src/lvgl/src/draw/sw/lv_draw_sw_gradient.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/adxintrin.h:
+
+../src/lvgl/src/misc/lv_bidi.h:
+
+../src/lvgl/src/extra/widgets/chart/lv_chart.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/pmmintrin.h:
+
+../src/lvgl/src/misc/lv_area.h:
+
+../src/lvgl/src/core/lv_obj_style.h:
+
+../src/lvgl/src/font/lv_font.h:
+
+../src/lvgl/src/draw/lv_draw.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
-/usr/include/alsa/output.h:
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-../src/mocp/options.c:
+../src/lvgl/src/widgets/lv_arc.h:
 
-/usr/include/alsa/pcm.h:
+../src/lvgl/src/misc/lv_timer.h:
 
-/usr/include/alsa/conf.h:
+../src/lvgl/src/lv_conf_kconfig.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/usr/include/SDL2/SDL_version.h:
+
+/usr/include/SDL2/begin_code.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/linux/limits.h:
+
+../src/lvgl/src/draw/lv_img_cache.h:
+
+../src/lvgl/src/extra/themes/lv_themes.h:
+
+../src/lvgl/src/draw/lv_img_buf.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+../src/lvgl/src/misc/lv_log.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+../src/lvgl/src/misc/lv_style_gen.h:
+
+../src/lvgl/lvgl.h:
+
+../src/mocp/compat.h:
+
+../src/lvgl/src/misc/lv_assert.h:
+
+../src/mocp/files.h:
+
+/usr/include/SDL2/SDL_pixels.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+../src/mocp/common.h:
+
+../src/lvgl/src/extra/layouts/flex/lv_flex.h:
+
+../src/mocp/lists.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/movdirintrin.h:
+
+../src/lvgl/src/font/lv_font_loader.h:
+
+/usr/include/alsa/input.h:
+
+../src/mocp/fifo_buf.h:
+
+/usr/include/x86_64-linux-gnu/sys/file.h:
+
+../src/mocp/interface_elements.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+../src/mocp/lists.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+../src/lvgl/src/misc/lv_txt.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/immintrin.h:
+
+../src/lvgl/src/core/lv_disp.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+../src/lvgl/src/misc/lv_style.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+../src/mocp/tags_cache.c:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/SDL2/SDL_hints.h:
+
+/usr/include/pthread.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/SDL2/SDL_log.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512pfintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/wbnoinvdintrin.h:
+
+../src/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+../src/lvgl/src/extra/others/imgfont/lv_imgfont.h:
+
+../src/mocp/options.h:
+
+../src/lvgl/src/extra/layouts/grid/lv_grid.h:
+
+/usr/include/features.h:
+
+../src/lvgl/src/misc/lv_async.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+../src/mocp/playlist.h:
+
+/usr/include/SDL2/SDL_timer.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+../src/lvgl/src/extra/others/snapshot/lv_snapshot.h:
+
+../src/lvgl/src/extra/widgets/list/lv_list.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/poll.h:
+
+/usr/include/SDL2/SDL_assert.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/lwpintrin.h:
+
+../src/mocp/rbtree.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
+
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/pconfigintrin.h:
+
+../src/lvgl/src/misc/lv_math.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+../src/lvgl/src/extra/libs/fsdrv/lv_fsdrv.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+../src/lvgl/src/lv_conf_internal.h:
+
+../src/lvgl/src/draw/lv_draw_mask.h:
+
+/usr/include/stdio.h:
+
+/usr/include/SDL2/SDL_sensor.h:
+
+../src/lvgl/src/draw/sw/lv_draw_sw_dither.h:
+
+../src/lvgl/src/misc/lv_mem.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+../src/lvgl/src/font/lv_font_fmt_txt.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+../src/lvgl/src/misc/lv_anim.h:
+
+../src/lvgl/src/extra/layouts/lv_layouts.h:
+
+../src/lvgl/src/extra/widgets/calendar/lv_calendar.h:
+
+/usr/include/libltdl/lt_dlloader.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmavlintrin.h:
+
+/usr/include/alloca.h:
+
+/usr/include/poll.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/vpclmulqdqintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+../src/mocp/playlist.c:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+../src/mocp/log.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+../src/lvgl/src/extra/libs/qrcode/lv_qrcode.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+../src/lvgl/src/hal/lv_hal_tick.h:
+
+../src/lvgl/src/hal/lv_hal.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+../src/lvgl/src/extra/libs/freetype/lv_freetype.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+../src/mocp/keys.h:
+
+/usr/include/alsa/global.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+../src/lvgl/lv_conf.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
+../src/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/ia32intrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/features-time64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xtestintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/dirent.h:
+
+/usr/include/SDL2/SDL_main.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/clflushoptintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
+
+../src/lvgl/src/widgets/lv_roller.h:
+
+../src/mocp/rbtree.c:
+
+/usr/include/SDL2/SDL_metal.h:
+
+../src/lvgl/src/misc/lv_color.h:
+
+../src/lvgl/src/lvgl.h:
+
+../src/mocp/io.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+../src/mocp/playlist_file.c:
+
+/usr/include/SDL2/SDL_system.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/shaintrin.h:
+
+../src/lvgl/src/widgets/lv_dropdown.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/amxint8intrin.h:
+
+../src/lvgl/src/core/lv_obj_tree.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+../src/lvgl/src/misc/lv_ll.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/clwbintrin.h:
+
+../src/lvgl/src/font/lv_symbol_def.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+../src/lvgl/src/hal/lv_hal_disp.h:
+
+/usr/include/SDL2/SDL_stdinc.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+../src/lvgl/src/extra/widgets/tileview/lv_tileview.h:
+
+../src/mocp/md5.c:
+
+../src/mocp/alsa.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+../src/lvgl/src/misc/lv_anim_timeline.h:
+
+../src/lvgl/src/core/lv_obj_class.h:
+
+/usr/include/SDL2/SDL_rwops.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/time.h:
+
+../src/mocp/decoder.h:
+
+../src/lvgl/src/core/lv_obj_pos.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+../src/lvgl/src/widgets/lv_textarea.h:
+
+../src/lvgl/src/draw/lv_draw_label.h:
+
+../src/lvgl/src/draw/lv_draw_img.h:
+
+../src/lvgl/src/draw/lv_draw_line.h:
+
+/usr/include/alsa/hwdep.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/tsxldtrkintrin.h:
+
+../src/lvgl/src/draw/lv_draw_triangle.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+../src/lvgl/src/draw/lv_draw_arc.h:
+
+../src/lvgl/src/draw/lv_draw_transform.h:
+
+../src/lvgl/src/draw/lv_draw_layer.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqintrin.h:
+
+../src/lvgl/src/misc/lv_printf.h:
+
+../src/lvgl/src/hal/lv_hal_indev.h:
+
+../src/lvgl/src/core/lv_obj.h:
+
+/usr/include/SDL2/SDL_atomic.h:
+
+../src/lvgl/src/core/lv_obj_style_gen.h:
+
+../src/lvgl/src/extra/themes/default/lv_theme_default.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitintrin.h:
+
+../src/lvgl/src/core/lv_obj_draw.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+../src/lvgl/src/core/lv_group.h:
+
+/usr/include/unistd.h:
+
+../src/lvgl/src/core/lv_indev.h:
+
+../src/lvgl/src/extra/others/gridnav/lv_gridnav.h:
+
+/usr/include/SDL2/SDL_loadso.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/vaesintrin.h:
+
+../src/lvgl/src/misc/lv_fs.h:
+
+../src/lvgl/src/extra/others/fragment/lv_fragment.h:
+
+/usr/include/signal.h:
+
+/usr/include/strings.h:
+
+../src/lvgl/src/draw/lv_img_decoder.h:
+
+../src/lvgl/src/widgets/lv_img.h:
+
+../src/mocp/oss.h:
+
+../src/lvgl/src/widgets/lv_label.h:
+
+../src/lvgl/src/extra/widgets/msgbox/lv_msgbox.h:
+
+/usr/include/SDL2/SDL_cpuinfo.h:
+
+../src/lvgl/src/widgets/lv_table.h:
+
+../src/lvgl/src/misc/lv_types.h:
+
+../src/lvgl/src/widgets/lv_checkbox.h:
+
+/usr/include/SDL2/SDL_mouse.h:
+
+../src/lvgl/src/core/lv_obj_scroll.h:
+
+../src/lvgl/src/widgets/lv_bar.h:
+
+../src/lvgl/src/widgets/lv_btn.h:
+
+../src/lvgl/src/widgets/lv_slider.h:
+
+../src/mocp/protocol.h:
+
+../src/lvgl/src/widgets/lv_btnmatrix.h:
+
+../src/lvgl/src/extra/others/lv_others.h:
+
+../src/lvgl/src/widgets/lv_canvas.h:
+
+../src/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h:
+
+../src/lvgl/src/widgets/lv_switch.h:
+
+/usr/include/SDL2/SDL_keyboard.h:
+
+../src/mocp/audio.h:
+
+../src/lvgl/src/lv_api_map.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/clzerointrin.h:
+
+../src/lvgl/src/extra/lv_extra.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+../src/lvgl/src/extra/widgets/lv_widgets.h:
+
+../src/lvgl/src/extra/libs/lv_libs.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/bmiintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+../src/lvgl/src/extra/libs/bmp/lv_bmp.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avxintrin.h:
+
+../src/lvgl/src/extra/widgets/keyboard/lv_keyboard.h:
+
+../src/lvgl/src/extra/libs/png/lv_png.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/SDL2/SDL_thread.h:
+
+/usr/include/regex.h:
+
+../src/lvgl/src/extra/widgets/span/lv_span.h:
+
+../src/lvgl/src/extra/libs/gif/lv_gif.h:
+
+../src/mocp/log.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vp2intersectvlintrin.h:
+
+../src/lvgl/src/extra/libs/sjpg/lv_sjpg.h:
+
+../src/lvgl/src/extra/libs/rlottie/lv_rlottie.h:
+
+/usr/include/SDL2/SDL_gamecontroller.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+../src/lvgl/src/extra/others/monkey/lv_monkey.h:
+
+/usr/include/string.h:
+
+../src/lvgl/src/extra/others/msg/lv_msg.h:
+
+../src/lvgl/src/extra/others/ime/lv_ime_pinyin.h:
+
+/usr/include/SDL2/SDL_video.h:
+
+../src/lvgl/src/extra/themes/mono/lv_theme_mono.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/ltdl.h:
+
+../src/lvgl/src/extra/widgets/menu/lv_menu.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+../src/lvgl/src/extra/widgets/meter/lv_meter.h:
+
+../src/lvgl/src/extra/widgets/spinner/lv_spinner.h:
+
+../src/lvgl/src/extra/widgets/spinbox/lv_spinbox.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitxintrin.h:
+
+../src/lvgl/src/extra/widgets/tabview/lv_tabview.h:
+
+../src/mocp/server.c:
+
+../src/lvgl/src/extra/widgets/win/lv_win.h:
+
+../src/lvgl/src/extra/widgets/led/lv_led.h:
+
+/usr/include/SDL2/SDL_config.h:
+
+../src/lvgl/src/widgets/lv_line.h:
+
+../src/lv_conf.h:
+
+/usr/include/SDL2/SDL.h:
+
+../src/lvgl/src/extra/widgets/animimg/lv_animimg.h:
+
+/usr/include/SDL2/close_code.h:
+
+../src/lv_drivers/sdl/sdl_common.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bwintrin.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/uintrintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/SDL2/SDL_gesture.h:
+
+../src/lvgl/src/core/lv_refr.h:
+
+/usr/include/ctype.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+../src/main.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/math.h:
+
+../src/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512cdintrin.h:
+
+/usr/include/SDL2/SDL_mutex.h:
+
+../src/lvgl/src/extra/themes/basic/lv_theme_basic.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+../src/mocp/utf8.c:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2intrin.h:
+
+../src/lvgl/src/draw/lv_draw_rect.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+../src/mocp/out_buf.c:
+
+../src/lvgl/src/core/lv_theme.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+
+/usr/include/SDL2/SDL_audio.h:
+
+../src/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h:
+
+/usr/include/SDL2/SDL_error.h:
+
+/usr/include/SDL2/SDL_endian.h:
+
+/usr/include/alsa/seq_midi_event.h:
+
+/usr/include/SDL2/SDL_clipboard.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h:
+
+../src/mocp/softmixer.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/bmi2intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/cetintrin.h:
+
+../src/mocp/null_out.c:
+
+/usr/include/SDL2/SDL_platform.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/cldemoteintrin.h:

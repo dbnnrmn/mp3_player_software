@@ -13,6 +13,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "../cmake/libtool.cmake"
   "../src/CMakeLists.txt"
+  "../src/lv_drivers/CMakeLists.txt"
+  "../src/lvgl/CMakeLists.txt"
+  "../src/lvgl/env_support/cmake/custom.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
@@ -25,6 +28,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
@@ -42,10 +48,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/lvgl/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/lv_drivers/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/ffmpeg.dir/DependInfo.cmake"
   "src/CMakeFiles/mp3player.dir/DependInfo.cmake"
+  "src/lvgl/CMakeFiles/lvgl.dir/DependInfo.cmake"
+  "src/lvgl/CMakeFiles/lvgl_examples.dir/DependInfo.cmake"
+  "src/lvgl/CMakeFiles/lvgl_demos.dir/DependInfo.cmake"
+  "src/lv_drivers/CMakeFiles/lv_drivers.dir/DependInfo.cmake"
   )

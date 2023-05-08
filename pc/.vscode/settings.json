@@ -6,6 +6,13 @@
         "decoder.h": "c",
         "lt_dlloader.h": "c",
         "avformat.h": "c",
-        "mathematics.h": "c"
+        "mathematics.h": "c",
+        "lvgl.h": "c",
+        "lv_conf_internal.h": "c",
+        "lv_conf.h": "c",
+        "lv_gpu_sdl.h": "c",
+        "sdl_gpu.h": "c",
+        "sdl.h": "c",
+        "lv_drv_conf.h": "c"
     }
 }

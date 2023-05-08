@@ -54,3 +54,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "/usr/local/media/roman/SharedDisk/my/projects/mp3_player/software/pc/src/../plugins" TYPE FILE FILES "/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/libffmpeg.la")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/lvgl/cmake_install.cmake")
+  include("/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/lv_drivers/cmake_install.cmake")
+
+endif()
+

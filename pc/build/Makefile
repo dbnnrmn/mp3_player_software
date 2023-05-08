@@ -187,6 +187,58 @@ mp3player/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/mp3player.dir/build.make src/CMakeFiles/mp3player.dir/build
 .PHONY : mp3player/fast
 
+#=============================================================================
+# Target rules for targets named lvgl
+
+# Build rule for target.
+lvgl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lvgl
+.PHONY : lvgl
+
+# fast build rule for target.
+lvgl/fast:
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl.dir/build.make src/lvgl/CMakeFiles/lvgl.dir/build
+.PHONY : lvgl/fast
+
+#=============================================================================
+# Target rules for targets named lvgl_examples
+
+# Build rule for target.
+lvgl_examples: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lvgl_examples
+.PHONY : lvgl_examples
+
+# fast build rule for target.
+lvgl_examples/fast:
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl_examples.dir/build.make src/lvgl/CMakeFiles/lvgl_examples.dir/build
+.PHONY : lvgl_examples/fast
+
+#=============================================================================
+# Target rules for targets named lvgl_demos
+
+# Build rule for target.
+lvgl_demos: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lvgl_demos
+.PHONY : lvgl_demos
+
+# fast build rule for target.
+lvgl_demos/fast:
+	$(MAKE) $(MAKESILENT) -f src/lvgl/CMakeFiles/lvgl_demos.dir/build.make src/lvgl/CMakeFiles/lvgl_demos.dir/build
+.PHONY : lvgl_demos/fast
+
+#=============================================================================
+# Target rules for targets named lv_drivers
+
+# Build rule for target.
+lv_drivers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lv_drivers
+.PHONY : lv_drivers
+
+# fast build rule for target.
+lv_drivers/fast:
+	$(MAKE) $(MAKESILENT) -f src/lv_drivers/CMakeFiles/lv_drivers.dir/build.make src/lv_drivers/CMakeFiles/lv_drivers.dir/build
+.PHONY : lv_drivers/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,6 +252,10 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... ffmpeg"
+	@echo "... lv_drivers"
+	@echo "... lvgl"
+	@echo "... lvgl_demos"
+	@echo "... lvgl_examples"
 	@echo "... mp3player"
 .PHONY : help
 

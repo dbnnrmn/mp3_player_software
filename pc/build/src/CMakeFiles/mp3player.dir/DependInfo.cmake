@@ -37,6 +37,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/lvgl/CMakeFiles/lvgl.dir/DependInfo.cmake"
+  "/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/lv_drivers/CMakeFiles/lv_drivers.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

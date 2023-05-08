@@ -476,6 +476,9 @@ mp3player_EXTERNAL_OBJECTS =
 ../out/mp3player: src/CMakeFiles/mp3player.dir/mocp/utf8.c.o
 ../out/mp3player: src/CMakeFiles/mp3player.dir/main.c.o
 ../out/mp3player: src/CMakeFiles/mp3player.dir/build.make
+../out/mp3player: lib/liblvgl.a
+../out/mp3player: lib/liblv_drivers.a
+../out/mp3player: lib/liblvgl.a
 ../out/mp3player: src/CMakeFiles/mp3player.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable ../../out/mp3player"
 	cd /media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mp3player.dir/link.txt --verbose=$(VERBOSE)

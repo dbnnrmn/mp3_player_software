@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Build shared as library (as opposed to static)
+BUILD_SHARED_LIBS:BOOL=OFF
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -209,6 +212,24 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Simple include of "lv_conf.h" and "lv_drv_conf.h"
+LV_CONF_INCLUDE_SIMPLE:BOOL=ON
+
+//Path defined for lv_conf.h
+LV_CONF_PATH:BOOL=OFF
+
+//Use #include "lvgl.h" instead of #include "../../lvgl.h"
+LV_LVGL_H_INCLUDE_SIMPLE:BOOL=ON
+
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
+//The directory containing a CMake configuration file for SDL2.
+SDL2_DIR:PATH=SDL2_DIR-NOTFOUND
+
 //Value Computed by CMake
 divider_BINARY_DIR:STATIC=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src
 
@@ -220,6 +241,24 @@ divider_SOURCE_DIR:STATIC=/media/roman/SharedDisk/my/projects/mp3_player/softwar
 
 //Dependencies for the target
 ffmpeg_LIB_DEPENDS:STATIC=general;asound;general;avformat;general;m;general;ltdl;general;avcodec;general;avutil;
+
+//Value Computed by CMake
+lv_drivers_BINARY_DIR:STATIC=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/lv_drivers
+
+//Value Computed by CMake
+lv_drivers_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+lv_drivers_SOURCE_DIR:STATIC=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/src/lv_drivers
+
+//Value Computed by CMake
+lvgl_BINARY_DIR:STATIC=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src/lvgl
+
+//Value Computed by CMake
+lvgl_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+lvgl_SOURCE_DIR:STATIC=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/src/lvgl
 
 //Value Computed by CMake
 main_BINARY_DIR:STATIC=/media/roman/SharedDisk/my/projects/mp3_player/software/pc/build/src
@@ -344,7 +383,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -387,4 +426,48 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.2()]
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+PKG_WAYLAND_CFLAGS:INTERNAL=
+PKG_WAYLAND_CFLAGS_I:INTERNAL=
+PKG_WAYLAND_CFLAGS_OTHER:INTERNAL=
+PKG_WAYLAND_FOUND:INTERNAL=
+PKG_WAYLAND_INCLUDEDIR:INTERNAL=
+PKG_WAYLAND_LIBDIR:INTERNAL=
+PKG_WAYLAND_LIBS:INTERNAL=
+PKG_WAYLAND_LIBS_L:INTERNAL=
+PKG_WAYLAND_LIBS_OTHER:INTERNAL=
+PKG_WAYLAND_LIBS_PATHS:INTERNAL=
+PKG_WAYLAND_MODULE_NAME:INTERNAL=
+PKG_WAYLAND_PREFIX:INTERNAL=
+PKG_WAYLAND_STATIC_CFLAGS:INTERNAL=
+PKG_WAYLAND_STATIC_CFLAGS_I:INTERNAL=
+PKG_WAYLAND_STATIC_CFLAGS_OTHER:INTERNAL=
+PKG_WAYLAND_STATIC_LIBDIR:INTERNAL=
+PKG_WAYLAND_STATIC_LIBS:INTERNAL=
+PKG_WAYLAND_STATIC_LIBS_L:INTERNAL=
+PKG_WAYLAND_STATIC_LIBS_OTHER:INTERNAL=
+PKG_WAYLAND_STATIC_LIBS_PATHS:INTERNAL=
+PKG_WAYLAND_VERSION:INTERNAL=
+PKG_WAYLAND_wayland-client_INCLUDEDIR:INTERNAL=
+PKG_WAYLAND_wayland-client_LIBDIR:INTERNAL=
+PKG_WAYLAND_wayland-client_PREFIX:INTERNAL=
+PKG_WAYLAND_wayland-client_VERSION:INTERNAL=
+PKG_WAYLAND_wayland-cursor_INCLUDEDIR:INTERNAL=
+PKG_WAYLAND_wayland-cursor_LIBDIR:INTERNAL=
+PKG_WAYLAND_wayland-cursor_PREFIX:INTERNAL=
+PKG_WAYLAND_wayland-cursor_VERSION:INTERNAL=
+PKG_WAYLAND_wayland-protocols_INCLUDEDIR:INTERNAL=
+PKG_WAYLAND_wayland-protocols_LIBDIR:INTERNAL=
+PKG_WAYLAND_wayland-protocols_PREFIX:INTERNAL=
+PKG_WAYLAND_wayland-protocols_VERSION:INTERNAL=
+PKG_WAYLAND_xkbcommon_INCLUDEDIR:INTERNAL=
+PKG_WAYLAND_xkbcommon_LIBDIR:INTERNAL=
+PKG_WAYLAND_xkbcommon_PREFIX:INTERNAL=
+PKG_WAYLAND_xkbcommon_VERSION:INTERNAL=
+__pkg_config_checked_PKG_WAYLAND:INTERNAL=1
 
